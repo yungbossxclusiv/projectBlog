@@ -91,7 +91,7 @@ main{
 
 
 .contentSide{
-     border: 2px solid black;
+     /* border: 2px solid black; */
      height: 100vh;
      position: sticky;
      top: 64px;
@@ -150,11 +150,12 @@ main{
 /* footer styling */
 footer{
     /* border: 2px solid; */
+    margin-top: 15rem;
     padding: 2rem;
 }
 .footerInfo{
     /* border: 2px solid blue; */
-    max-width: 950px;
+    max-width: 1200px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
